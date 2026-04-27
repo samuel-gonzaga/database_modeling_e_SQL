@@ -1,17 +1,5 @@
-# Mostra todos os databases existentes
-show databases;
-
-# Cria um novo database
-create database db_sistema_pedidos;
-
-# Apaga um database existente
-drop database db_sistema_pedidos;
-
 # Ativa o database a ser utilizado
 use db_sistema_pedidos;
-
-# Permite visualizar todas as tabelas existentes no database
-show tables;
 
 # Permite criar uma tabela
 create table tbl_cor (
@@ -48,9 +36,6 @@ create table tbl_produto_cor (
     
     unique index (id)
 );
-
-# Permite mostrar a configuração da tabela criada
-desc tbl_produto_cor;
 
 create table tbl_cliente (
     id int not null primary key auto_increment,
