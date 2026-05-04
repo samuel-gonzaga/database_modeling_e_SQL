@@ -1,4 +1,4 @@
-use db_sistema_pedidos;
+use db_sistema_pedidos;
 
 insert into tbl_pedido_produto (id_produto, id_pedido) values 
 -- Pedido 1001 (João): Notebook (id1)

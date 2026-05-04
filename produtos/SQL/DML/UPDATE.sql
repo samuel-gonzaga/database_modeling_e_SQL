@@ -1,0 +1,1 @@
+update tbl_produto set descricao = 'Mouse com fio' where id = 2;
